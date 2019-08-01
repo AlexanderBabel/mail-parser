@@ -1,4 +1,6 @@
-import { readdirSync, lstatSync } from "fs";
+/* eslint-disable import/no-dynamic-require */
+/* eslint-disable global-require */
+import { readdirSync, lstatSync } from 'fs';
 
 export async function requireFiles(path) {
   const res = await Promise.all(
@@ -6,7 +8,9 @@ export async function requireFiles(path) {
       const name = `${path}/${f}`;
       if (lstatSync(name).isDirectory()) {
         return requireFiles(name);
-      } else if (f.endsWith(".js")) {
+      }
+
+      if (f.endsWith('.js')) {
         return [require(`../${name}`).default];
       }
 

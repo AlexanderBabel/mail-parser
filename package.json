@@ -12,7 +12,16 @@
     "moment": "^2.24.0",
     "puppeteer": "^1.19.0"
   },
+  "devDependencies": {
+    "eslint": "^5.12.1",
+    "eslint-config-airbnb-base": "^13.1.0",
+    "eslint-config-prettier": "^4.0.0",
+    "eslint-plugin-import": "^2.15.0",
+    "eslint-plugin-prettier": "^3.0.1",
+    "prettier-eslint": "^8.8.2"
+  },
   "scripts": {
-    "start": "node -r esm index.js"
+    "start": "node -r esm index.js",
+    "eslint": "eslint ."
   }
 }

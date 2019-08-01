@@ -1,11 +1,12 @@
-import puppeteer from "puppeteer";
-import { sendPush } from "./ifttt";
+import puppeteer from 'puppeteer';
+import { sendPush } from './ifttt';
 
 export async function getText(el) {
-  return (await el.getProperty("innerHTML")).jsonValue();
+  return (await el.getProperty('innerHTML')).jsonValue();
 }
 
 export async function handleRequests(jobs, persitentData) {
+  const pData = [...persitentData];
   const browser = await puppeteer.launch({ headless: true });
   await Promise.all(
     jobs.map(async (data, i) => {
@@ -16,9 +17,9 @@ export async function handleRequests(jobs, persitentData) {
       }
 
       const text = await data.getData(page, data);
-      if (!persitentData[i] || persitentData[i].sent !== text) {
-        persitentData[i] = { sent: text };
-        return sendPush({
+      if (!pData[i] || pData[i].sent !== text) {
+        pData[i] = { sent: text };
+        await sendPush({
           title: data.push.title,
           text,
           link: data.url
@@ -28,5 +29,5 @@ export async function handleRequests(jobs, persitentData) {
   );
 
   await browser.close();
-  return persitentData;
+  return pData;
 }
