@@ -7,7 +7,11 @@ export async function getText(el) {
 
 export async function handleRequests(jobs, persitentData) {
   const pData = [...persitentData];
-  const browser = await puppeteer.launch({ headless: true });
+  const browser = await puppeteer.launch({
+    headless: true,
+    executablePath: '/usr/bin/chromium-browser',
+    args: ['--no-sandbox', '--disable-dev-shm-usage']
+  });
   await Promise.all(
     jobs.map(async (data, i) => {
       const page = await browser.newPage();

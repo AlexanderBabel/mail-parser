@@ -10,6 +10,7 @@
     "dotenv": "^8.0.0",
     "esm": "^3.2.25",
     "moment": "^2.24.0",
+    "node-cron": "^2.0.3",
     "puppeteer": "^1.19.0"
   },
   "devDependencies": {
