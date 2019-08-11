@@ -2,10 +2,10 @@ import { readFileSync, writeFileSync } from 'fs';
 
 export function load() {
   try {
-    return JSON.parse(readFileSync('persitentData.json').toString()) || [];
+    return JSON.parse(readFileSync('persitentData.json').toString()) || {};
     // eslint-disable-next-line no-empty
   } catch (err) {}
-  return [];
+  return {};
 }
 
 export function save(data) {
