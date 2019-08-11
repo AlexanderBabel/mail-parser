@@ -20,7 +20,7 @@ async function run(task = null) {
 }
 
 if (process.env.LOCAL_TEST !== 'true') {
-  cron.schedule('40 * * * *', run);
+  cron.schedule('55 */8 * * *', run);
 } else {
   run('N26');
 }
