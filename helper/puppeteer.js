@@ -18,7 +18,7 @@ export async function handleRequests(jobs, persitentData) {
   const browser = await puppeteer.launch(
     process.env.LOCAL_TEST === 'true'
       ? {
-          headless: false
+          headless: true
         }
       : {
           headless: true,

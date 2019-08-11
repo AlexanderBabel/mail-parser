@@ -22,5 +22,5 @@ async function run(task = null) {
 if (process.env.LOCAL_TEST !== 'true') {
   cron.schedule('55 */8 * * *', run);
 } else {
-  run('N26');
+  run('Nuki');
 }
