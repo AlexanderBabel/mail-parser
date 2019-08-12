@@ -3,6 +3,7 @@ import cron from 'node-cron';
 import { handleRequests } from './helper/puppeteer';
 import { save, load } from './helper/storage';
 import { requireFiles } from './helper/file';
+import mailChecker from './utils/mailChecker';
 
 async function run(task = null) {
   const tasks = await requireFiles('tasks');
@@ -21,6 +22,8 @@ async function run(task = null) {
 
 if (process.env.LOCAL_TEST !== 'true') {
   cron.schedule('55 */8 * * *', run);
+  mailChecker();
 } else {
-  run('Nuki');
+  // run('Nuki');
+  mailChecker();
 }
