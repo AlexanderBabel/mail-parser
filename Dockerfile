@@ -9,6 +9,6 @@ ENV NODE_ENV production
 
 RUN yarn
 
-COPY src .
+COPY src src
 
 CMD ["yarn", "start"]
