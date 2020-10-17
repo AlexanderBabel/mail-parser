@@ -1,0 +1,42 @@
+name: Release a new version
+on:
+  push:
+    branches:
+      - master
+      - development
+
+jobs:
+  release:
+    if: |
+      !(github.event_name == 'push' && contains(github.event.head_commit.message, '[skip ci]')) &&
+      !(github.event_name == 'pull_request' && contains(join(github.event.pull_request.title, github.event.pull_request.body), '[skip ci]'))
+    runs-on: ubuntu-latest
+    steps:
+      - name: Clone code repo
+        uses: actions/checkout@v2
+
+      - name: Import GPG key
+        uses: crazy-max/ghaction-import-gpg@v2
+        with:
+          git_user_signingkey: true
+          git_commit_gpgsign: true
+        env:
+          GPG_PRIVATE_KEY: ${{ secrets.GPG_PRIVATE_KEY }}
+          PASSPHRASE: ${{ secrets.GPG_PASSPHRASE }}
+
+      - name: Install dependencies
+        run: yarn
+
+      - name: ESLint check
+        run: yarn eslint
+
+      - name: Semantic release
+        run: yarn semantic-release
+        env:
+          CI_REGISTRY_PASSWORD: ${{ secrets.CI_REGISTRY_PASSWORD }}
+          GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
+
+          GIT_AUTHOR_NAME: ${{ secrets.GIT_USERNAME }}
+          GIT_AUTHOR_EMAIL: ${{ secrets.GIT_EMAIL }}
+          GIT_COMMITTER_NAME: ${{ secrets.GIT_USERNAME }}
+          GIT_COMMITTER_EMAIL: ${{ secrets.GIT_EMAIL }}
