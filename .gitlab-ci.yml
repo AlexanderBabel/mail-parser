@@ -1,6 +1,0 @@
-image: appropriate/curl
-stage_deploy:
-  only:
-    - master
-  script: 
-    - curl "https://update-${UPDATE_SERVER}.alexdev.de/update/web-checker?auth=$(eval "echo \"\$GITLAB_${UPDATE_SERVER}_UPDATE_AUTH\"")"

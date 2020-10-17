@@ -1,8 +1,0 @@
-version: '3.3'
-services: 
-  node:
-    build: .
-    env_file:
-      - .env
-    volumes:
-      - ./persitent:/build/persitent
