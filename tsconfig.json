@@ -1,0 +1,30 @@
+{
+  "compilerOptions": {
+    "module": "commonjs",
+    "declaration": true,
+    "removeComments": true,
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "allowSyntheticDefaultImports": true,
+    "outDir": "dist",
+    "baseUrl": "./",
+    "incremental": true,
+    "target": "ES2020",
+    "allowJs": true,
+    "sourceMap": true,
+    "skipLibCheck": true,
+    "esModuleInterop": true,
+    "strict": true,
+    "forceConsistentCasingInFileNames": true,
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "noEmitHelpers": true,
+    "importHelpers": true,
+    "paths": {
+      "@test/mocks": ["test/mocks"],
+      "@test/mocks/*": ["test/mocks/*"],
+      "matrix-js-sdk": ["node_modules/@types/matrix-js-sdk/index.d.ts"]
+    }
+  }
+}
