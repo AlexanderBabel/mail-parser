@@ -58,7 +58,6 @@ export class IMAPService {
     });
 
     this.mailListener.on('mail', (mail: ParsedMail) => {
-      this.logger.log('mail!');
       this.handleMail(mail);
     });
   }
