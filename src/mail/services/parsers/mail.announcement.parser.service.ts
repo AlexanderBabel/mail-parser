@@ -20,8 +20,7 @@ export class MailAnnouncementParserService implements MailParser {
   }
 
   getSender(): string {
-    return 'alexander.babel@web.de';
-    // return 'ankuendigung@brief.deutschepost.de';
+    return 'ankuendigung@brief.deutschepost.de';
   }
 
   async parseMail(mail: ParsedMail): Promise<void> {
