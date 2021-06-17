@@ -1,3 +1,15 @@
+# [2.0.0](https://github.com/AlexanderBabel/web-checker/compare/v1.0.1...v2.0.0) (2021-06-17)
+
+
+### Features
+
+* rewrite in nestjs ([8fc731e](https://github.com/AlexanderBabel/web-checker/commit/8fc731e7116f815b95ce18f55cd8a15c86906011))
+
+
+### BREAKING CHANGES
+
+* replace IFTTT with Matrix
+
 ## [1.0.1](https://github.com/AlexanderBabel/web-checker/compare/v1.0.0...v1.0.1) (2020-10-17)
 
 
