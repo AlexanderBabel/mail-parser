@@ -1,3 +1,10 @@
+## [2.0.1](https://github.com/AlexanderBabel/web-checker/compare/v2.0.0...v2.0.1) (2021-06-17)
+
+
+### Bug Fixes
+
+* **MailAnnouncementParserService:** switch sender address ([948d085](https://github.com/AlexanderBabel/web-checker/commit/948d0853fdadca5488edfeee49e08aff64ba8d67))
+
 # [2.0.0](https://github.com/AlexanderBabel/web-checker/compare/v1.0.1...v2.0.0) (2021-06-17)
 
 
