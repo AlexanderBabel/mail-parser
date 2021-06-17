@@ -1,3 +1,10 @@
+## [2.0.2](https://github.com/AlexanderBabel/web-checker/compare/v2.0.1...v2.0.2) (2021-06-17)
+
+
+### Bug Fixes
+
+* **IMAPService:** remove log entry ([53f43e1](https://github.com/AlexanderBabel/web-checker/commit/53f43e11a5816a4603c6ee81b10b041f182533f0))
+
 ## [2.0.1](https://github.com/AlexanderBabel/web-checker/compare/v2.0.0...v2.0.1) (2021-06-17)
 
 
