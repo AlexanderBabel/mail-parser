@@ -1,3 +1,10 @@
+## [2.0.3](https://github.com/AlexanderBabel/web-checker/compare/v2.0.2...v2.0.3) (2021-06-23)
+
+
+### Bug Fixes
+
+* **main:** increase size limit to 50mb ([f5a2a7c](https://github.com/AlexanderBabel/web-checker/commit/f5a2a7cb2433fcb2a540ddf40b6dab498dbaa05a))
+
 ## [2.0.2](https://github.com/AlexanderBabel/web-checker/compare/v2.0.1...v2.0.2) (2021-06-17)
 
 
