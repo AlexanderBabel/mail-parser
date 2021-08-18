@@ -1,5 +1,5 @@
 import Imap from 'imap';
-import { EventEmitter } from 'events';
+import { EventEmitter } from 'node:events';
 import { simpleParser } from 'mailparser';
 
 type MailOptions = {

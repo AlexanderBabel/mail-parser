@@ -24,7 +24,7 @@ export class PushService {
 
     this.httpClient = axios.create({
       method: 'post',
-      timeout: 10000,
+      timeout: 10_000,
       baseURL: this.PUSH_ENDPOINT,
     });
   }
