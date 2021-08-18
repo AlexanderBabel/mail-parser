@@ -1,11 +1,14 @@
 # mail-parser
 
-A NestJS project, that can parse E-Mails and send Push Notifications:
+A NestJS project, that can parse e-mails and send push notifications.
+
+It's still named `web-checker` for legacy reasons. In the past, it scraped websites and sent push notifications based on content on the sites. Now it's focused on e-mails.
 
 Implemented functionalities:
-- Deutsche Post Briefankündigung -> Message in Matrix with the image from the E-Mail
-- DHL mTAN -> Message in Matrix with the mTAN
+- `Deutsche Post Briefankündigung`: Sends a message to Matrix including an image of the mail envelope from the e-mail
+- `DHL mTAN`: Sends a message to Matrix with the mTAN from the e-mail
 
+---
 
 
 <p align="center">
