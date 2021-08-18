@@ -1,3 +1,13 @@
+# mail-parser
+
+A NestJS project, that can parse E-Mails and send Push Notifications:
+
+Implemented functionalities:
+- Deutsche Post Briefankündigung -> Message in Matrix with the image from the E-Mail
+- DHL mTAN -> Message in Matrix with the mTAN
+
+
+
 <p align="center">
   <a href="http://nestjs.com/" target="blank"><img src="https://nestjs.com/img/logo_text.svg" width="320" alt="Nest Logo" /></a>
 </p>
