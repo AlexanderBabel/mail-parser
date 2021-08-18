@@ -1,3 +1,10 @@
+## [2.0.4](https://github.com/AlexanderBabel/web-checker/compare/v2.0.3...v2.0.4) (2021-08-18)
+
+
+### Bug Fixes
+
+* update dependencies ([b639616](https://github.com/AlexanderBabel/web-checker/commit/b639616213ce6eb1664907579e43162a3f0ca7c2))
+
 ## [2.0.3](https://github.com/AlexanderBabel/web-checker/compare/v2.0.2...v2.0.3) (2021-06-23)
 
 
