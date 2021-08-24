@@ -1,3 +1,10 @@
+## [2.0.5](https://github.com/AlexanderBabel/mail-parser/compare/v2.0.4...v2.0.5) (2021-08-24)
+
+
+### Bug Fixes
+
+* **DHLParser:** support new email layout ([f5a07d4](https://github.com/AlexanderBabel/mail-parser/commit/f5a07d4ea7819219fad8dc902ffc68cd8e0177f4))
+
 ## [2.0.4](https://github.com/AlexanderBabel/mail-parser/compare/v2.0.3...v2.0.4) (2021-08-18)
 
 
