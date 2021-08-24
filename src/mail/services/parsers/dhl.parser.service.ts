@@ -30,13 +30,13 @@ export class DHLParserService implements MailParser {
     }
 
     const $ = cheerio.load(mail.html);
-    const mTan = $('.mobileVersion .headline span>b').text();
+    const mTan = $('.mobileVersion .headline span>b').text() || $('td.articleHeadline').first().text(); 
     if (!mTan) {
       this.sendPush('DHL: Could not find mTAN');
       return;
     }
 
-    this.sendPush(`DHL mTAN: ${mTan}`);
+    this.sendPush(`DHL mTAN: ${mTan.trim()}`);
   }
 
   sendPush(message: string) {
