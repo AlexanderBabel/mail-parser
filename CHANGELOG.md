@@ -1,3 +1,15 @@
+# [2.1.0](https://github.com/AlexanderBabel/mail-parser/compare/v2.0.5...v2.1.0) (2021-08-26)
+
+
+### Bug Fixes
+
+* trigger release ([7194457](https://github.com/AlexanderBabel/mail-parser/commit/7194457ae505080c8ce47a17797716973d9f3988))
+
+
+### Features
+
+* add arm64 support ([7ac8c01](https://github.com/AlexanderBabel/mail-parser/commit/7ac8c017b89c114f16f87dfc0973999a6b07ee1b))
+
 ## [2.0.5](https://github.com/AlexanderBabel/mail-parser/compare/v2.0.4...v2.0.5) (2021-08-24)
 
 
