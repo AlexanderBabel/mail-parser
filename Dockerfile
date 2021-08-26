@@ -8,9 +8,9 @@ WORKDIR /usr/src/app
 
 COPY . .
 
-RUN curl -sfL https://install.goreleaser.com/github.com/tj/node-prune.sh | bash -s -- -b /usr/local/bin
+RUN curl -sfL https://gobinaries.com/tj/node-prune | bash -s -- -b /usr/local/bin
 
-RUN yarn install --frozen-lockfile --silent
+RUN yarn install --frozen-lockfile --silent --network-timeout 100000
 
 RUN yarn build
 

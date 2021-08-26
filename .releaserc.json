@@ -7,7 +7,11 @@
   ],
   "prepare": [
     "@semantic-release/changelog",
-    "@alexbabel/semantic-release-docker",
+    "@semantic-release/npm",
+    {
+      "path": "@alexbabel/semantic-release-docker",
+      "buildArgs": ["--platform", "linux/amd64,linux/arm64", "--push"]
+    },
     {
       "path": "@semantic-release/git",
       "assets": ["CHANGELOG.md", "package.json", "yarn.lock"]
@@ -17,6 +21,9 @@
     "@semantic-release/commit-analyzer",
     "@semantic-release/release-notes-generator",
     "@semantic-release/github",
-    "@alexbabel/semantic-release-docker"
+    {
+      "path": "@alexbabel/semantic-release-docker",
+      "skipPublish": true
+    }
   ]
 }
