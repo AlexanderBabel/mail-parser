@@ -1,3 +1,11 @@
+## [2.1.1](https://github.com/AlexanderBabel/mail-parser/compare/v2.1.0...v2.1.1) (2021-09-07)
+
+
+### Bug Fixes
+
+* **deps:** update dependency @nestjs/terminus to v8 ([474ff3a](https://github.com/AlexanderBabel/mail-parser/commit/474ff3a0f085bffcccb62b0e4a1d30fcc67e9a17))
+* **deps:** update dependency axios to v0.21.4 ([d4b411b](https://github.com/AlexanderBabel/mail-parser/commit/d4b411b1a0148770b3c781226fa14f54693db41a))
+
 # [2.1.0](https://github.com/AlexanderBabel/mail-parser/compare/v2.0.5...v2.1.0) (2021-08-26)
 
 
