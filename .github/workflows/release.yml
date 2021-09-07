@@ -25,7 +25,7 @@ jobs:
           install: true
 
       - name: Import GPG key
-        uses: crazy-max/ghaction-import-gpg@v2
+        uses: crazy-max/ghaction-import-gpg@v4
         with:
           git_user_signingkey: true
           git_commit_gpgsign: true
