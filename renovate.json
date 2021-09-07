@@ -8,6 +8,10 @@
     {
       "matchUpdateTypes": ["minor", "patch"],
       "automerge": true
+    },
+    {
+      "matchUpdateTypes": ["major"],
+      "labels": ["UPDATE-MAJOR"]
     }
   ]
 }
