@@ -61,7 +61,7 @@
     "eslint-plugin-prettier": "4.0.0",
     "eslint-plugin-promise": "5.1.0",
     "eslint-plugin-unicorn": "35.0.0",
-    "jest": "27.1.0",
+    "jest": "27.1.1",
     "prettier": "2.3.2",
     "semantic-release": "17.4.7",
     "supertest": "6.1.6",
