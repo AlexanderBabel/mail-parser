@@ -5526,10 +5526,10 @@ magic-string@0.25.7:
   dependencies:
     sourcemap-codec "^1.4.4"
 
-mailparser@3.3.0:
-  version "3.3.0"
-  resolved "https://registry.yarnpkg.com/mailparser/-/mailparser-3.3.0.tgz#1f688f769760dbe46eb1ba8ffbf05eae04cb14ac"
-  integrity sha512-cSvqT3y735gN3IFLcda/H/grJ+7HItKw8OOshzlhAHAic5R0c33GB1ZizREWmLJONjFMrKUitFeopZd9rsRfvg==
+mailparser@3.3.1:
+  version "3.3.1"
+  resolved "https://registry.yarnpkg.com/mailparser/-/mailparser-3.3.1.tgz#9741a4175f00e43259b0b1a662aa582e5b0fe746"
+  integrity sha512-0X5uO4JHkYWyw0Y6v6m53d622AHZUOJLvmsHXxnEIXNBbsbUDruPi/Pwyi/tUkANLY4dfn/WrOfVdaFCwTNbdw==
   dependencies:
     encoding-japanese "1.0.30"
     he "1.2.0"
@@ -5537,14 +5537,14 @@ mailparser@3.3.0:
     iconv-lite "0.6.3"
     libmime "5.0.0"
     linkify-it "3.0.2"
-    mailsplit "5.0.1"
+    mailsplit "5.2.0"
     nodemailer "6.6.3"
     tlds "1.221.1"
 
-mailsplit@5.0.1:
-  version "5.0.1"
-  resolved "https://registry.yarnpkg.com/mailsplit/-/mailsplit-5.0.1.tgz#070bd883bddc0c6c7f5c6ea4a54847729d95dc6f"
-  integrity sha512-CcGy1sv8j9jdjKiNIuMZYIKhq4s47nUj9Q98BZfptabH/whmiQX7EvrHx36O4DcyPEsnG152GVNyvqPi9FNIew==
+mailsplit@5.2.0:
+  version "5.2.0"
+  resolved "https://registry.yarnpkg.com/mailsplit/-/mailsplit-5.2.0.tgz#c9b5154d05d661f793e7b902747a4241fcceee47"
+  integrity sha512-B6bXTcriVWOkU4REELr87iWRbV6tvF6w5AX84AFNyd1vxFv9ppIFqE5vnPptWqF1q/jnAmsInKf4wmImCD6bCQ==
   dependencies:
     libbase64 "1.2.1"
     libmime "5.0.0"
