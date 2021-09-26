@@ -2,10 +2,10 @@
 # yarn lockfile v1
 
 
-"@alexbabel/semantic-release-docker@2.8.0":
-  version "2.8.0"
-  resolved "https://registry.yarnpkg.com/@alexbabel/semantic-release-docker/-/semantic-release-docker-2.8.0.tgz#06b99003b5f56a41134f0ec256b316a912fc9453"
-  integrity sha512-Gw+Tw4F63W7SL3dDuDqy5CJM9V5K6K/E4sLKs6vLcmi0S9RIRVkn9V7DHlQI87Evvnjm49YatVwo5nB3FAiN0g==
+"@alexbabel/semantic-release-docker@2.9.0":
+  version "2.9.0"
+  resolved "https://registry.yarnpkg.com/@alexbabel/semantic-release-docker/-/semantic-release-docker-2.9.0.tgz#baac1575d52ca1547fe4682c96be387628fb8a30"
+  integrity sha512-eEbbf8wKDXoj6YaHymHhIQ/PkEtW3IBlLLwhb/zvoDzwARh5XKGL8uojc3fcch6d53hFRuZrZeQ+4al3cMu5aw==
   dependencies:
     "@semantic-release/error" "^2.2.0"
     execa "4.0.3"
