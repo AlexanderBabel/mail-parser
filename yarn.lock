@@ -1838,6 +1838,11 @@ ansistyles@~0.1.3:
   resolved "https://registry.yarnpkg.com/ansistyles/-/ansistyles-0.1.3.tgz#5de60415bda071bb37127854c864f41b23254539"
   integrity sha1-XeYEFb2gcbs3EnhUyGT0GyMlRTk=
 
+any-date-parser@1.5.1:
+  version "1.5.1"
+  resolved "https://registry.yarnpkg.com/any-date-parser/-/any-date-parser-1.5.1.tgz#152db2bbc8c9b8f8715f58952ae09657e27d008f"
+  integrity sha512-3fHJDprh78tWHXDqQ15iLbk/VDMsCq9ih0YTS8oAF8N7BKqurjRQkG7ZI4d+Cknh0TZ3aDqQ5WQvO2QGVLDK7A==
+
 anymatch@^3.0.3, anymatch@~3.1.2:
   version "3.1.2"
   resolved "https://registry.yarnpkg.com/anymatch/-/anymatch-3.1.2.tgz#c0557c096af32f106198f4f4e2a383537e378716"
@@ -5526,11 +5531,12 @@ magic-string@0.25.7:
   dependencies:
     sourcemap-codec "^1.4.4"
 
-mailparser@3.3.1:
-  version "3.3.1"
-  resolved "https://registry.yarnpkg.com/mailparser/-/mailparser-3.3.1.tgz#9741a4175f00e43259b0b1a662aa582e5b0fe746"
-  integrity sha512-0X5uO4JHkYWyw0Y6v6m53d622AHZUOJLvmsHXxnEIXNBbsbUDruPi/Pwyi/tUkANLY4dfn/WrOfVdaFCwTNbdw==
+mailparser@3.3.2:
+  version "3.3.2"
+  resolved "https://registry.yarnpkg.com/mailparser/-/mailparser-3.3.2.tgz#a173717086bf12ca1eff0f17ad5bec0406f55aa2"
+  integrity sha512-CEoKCxz01SLodh+KSRASm07dKRjcg7fGESGCmexqBt98StkaNdoyhy84F46TV7uZu8513YegH2Tjf5wIqfFZYA==
   dependencies:
+    any-date-parser "1.5.1"
     encoding-japanese "1.0.30"
     he "1.2.0"
     html-to-text "8.0.0"
@@ -5538,8 +5544,8 @@ mailparser@3.3.1:
     libmime "5.0.0"
     linkify-it "3.0.2"
     mailsplit "5.2.0"
-    nodemailer "6.6.3"
-    tlds "1.221.1"
+    nodemailer "6.6.5"
+    tlds "1.222.0"
 
 mailsplit@5.2.0:
   version "5.2.0"
@@ -5938,10 +5944,10 @@ node-releases@^1.1.75:
   resolved "https://registry.yarnpkg.com/node-releases/-/node-releases-1.1.75.tgz#6dd8c876b9897a1b8e5a02de26afa79bb54ebbfe"
   integrity sha512-Qe5OUajvqrqDSy6wrWFmMwfJ0jVgwiw4T3KqmbTcZ62qW0gQkheXYhcFM1+lOVcGUoRxcEcfyvFMAnDgaF1VWw==
 
-nodemailer@6.6.3:
-  version "6.6.3"
-  resolved "https://registry.yarnpkg.com/nodemailer/-/nodemailer-6.6.3.tgz#31fb53dd4d8ae16fc088a65cb9ffa8d928a69b48"
-  integrity sha512-faZFufgTMrphYoDjvyVpbpJcYzwyFnbAMmQtj1lVBYAUSm3SOy2fIdd9+Mr4UxPosBa0JRw9bJoIwQn+nswiew==
+nodemailer@6.6.5:
+  version "6.6.5"
+  resolved "https://registry.yarnpkg.com/nodemailer/-/nodemailer-6.6.5.tgz#f9f6953cee5cfe82cbea152eeddacf7a0442049a"
+  integrity sha512-C/v856DBijUzHcHIgGpQoTrfsH3suKIRAGliIzCstatM2cAa+MYX3LuyCrABiO/cdJTxgBBHXxV1ztiqUwst5A==
 
 nopt@^5.0.0:
   version "5.0.0"
@@ -7808,10 +7814,10 @@ tiny-relative-date@^1.3.0:
   resolved "https://registry.yarnpkg.com/tiny-relative-date/-/tiny-relative-date-1.3.0.tgz#fa08aad501ed730f31cc043181d995c39a935e07"
   integrity sha512-MOQHpzllWxDCHHaDno30hhLfbouoYlOI8YlMNtvKe1zXbjEVhbcEovQxvZrPvtiYW630GQDoMMarCnjfyfHA+A==
 
-tlds@1.221.1:
-  version "1.221.1"
-  resolved "https://registry.yarnpkg.com/tlds/-/tlds-1.221.1.tgz#6cf6bff5eaf30c5618c5801c3f425a6dc61ca0ad"
-  integrity sha512-N1Afn/SLeOQRpxMwHBuNFJ3GvGrdtY4XPXKPFcx8he0U9Jg9ZkvTKE1k3jQDtCmlFn44UxjVtouF6PT4rEGd3Q==
+tlds@1.222.0:
+  version "1.222.0"
+  resolved "https://registry.yarnpkg.com/tlds/-/tlds-1.222.0.tgz#b3cbf4f8dfe15af2b82d40361e7e552649e3aad2"
+  integrity sha512-jC8RCcx2Z0tfXLQGo2gdrzOCv5B7Shd2SRd9Yctl+cFuy9XZ+25T+ugOVhKUSrCYCKv4fjo93fAreDFhLVklAA==
 
 tmp@^0.0.33:
   version "0.0.33"
