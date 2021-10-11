@@ -1,3 +1,10 @@
+## [2.1.16](https://github.com/AlexanderBabel/mail-parser/compare/v2.1.15...v2.1.16) (2021-10-11)
+
+
+### Bug Fixes
+
+* **deps:** update dependency mailparser to v3.4.0 ([65f09ec](https://github.com/AlexanderBabel/mail-parser/commit/65f09ec2fe24e129837b65b8628c135560c727db))
+
 ## [2.1.15](https://github.com/AlexanderBabel/mail-parser/compare/v2.1.14...v2.1.15) (2021-10-07)
 
 
