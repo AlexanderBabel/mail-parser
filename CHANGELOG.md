@@ -1,3 +1,15 @@
+# [2.2.0](https://github.com/AlexanderBabel/mail-parser/compare/v2.1.19...v2.2.0) (2021-10-15)
+
+
+### Bug Fixes
+
+* improve function signatures ([4bc8ccb](https://github.com/AlexanderBabel/mail-parser/commit/4bc8ccbb283e13fae9f09f6f4abd53752a652182))
+
+
+### Features
+
+* **CardPaymentsModule:** add card payments api ([0af294e](https://github.com/AlexanderBabel/mail-parser/commit/0af294ef4d832e802ebb6953ee6f7c23a5259fe4))
+
 ## [2.1.19](https://github.com/AlexanderBabel/mail-parser/compare/v2.1.18...v2.1.19) (2021-10-14)
 
 
