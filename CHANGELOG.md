@@ -1,3 +1,10 @@
+## [2.2.3](https://github.com/AlexanderBabel/mail-parser/compare/v2.2.2...v2.2.3) (2021-10-15)
+
+
+### Bug Fixes
+
+* **deps:** pin dependencies ([d77887d](https://github.com/AlexanderBabel/mail-parser/commit/d77887d21831e07d37e8cd0feaa9edebf5c9fa8a))
+
 ## [2.2.2](https://github.com/AlexanderBabel/mail-parser/compare/v2.2.1...v2.2.2) (2021-10-15)
 
 
