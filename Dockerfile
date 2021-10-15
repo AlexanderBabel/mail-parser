@@ -16,6 +16,8 @@ RUN yarn build
 
 RUN yarn install --production --frozen-lockfile --silent && /usr/local/bin/node-prune && rm -rf src/
 
+RUN npx prisma generate
+
 #
 # Production stage.
 # This state compile get back the JavaScript code from builder stage
