@@ -19,11 +19,11 @@ export class DHLParserService implements MailParser {
     }
   }
 
-  getSender(): string {
+  public getSender(): string {
     return 'noreply.packstation@dhl.de';
   }
 
-  async parseMail(mail: ParsedMail): Promise<void> {
+  public async parseMail(mail: ParsedMail): Promise<void> {
     if (!mail.html) {
       this.sendPush('DHL: Could not find HTML content.');
       return;
@@ -39,7 +39,7 @@ export class DHLParserService implements MailParser {
     this.sendPush(`DHL mTAN: ${mTan.trim()}`);
   }
 
-  sendPush(message: string) {
+  private sendPush(message: string) {
     if (!this.DHL_PUSH_ROOM) {
       throw new Error('Missing DHL_PUSH_ROOM env var!');
     }

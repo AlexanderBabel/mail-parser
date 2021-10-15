@@ -19,11 +19,11 @@ export class MailAnnouncementParserService implements MailParser {
     }
   }
 
-  getSender(): string {
+  public getSender(): string {
     return 'ankuendigung@brief.deutschepost.de';
   }
 
-  async parseMail(mail: ParsedMail): Promise<void> {
+  public async parseMail(mail: ParsedMail): Promise<void> {
     if (mail.attachments.length === 0) {
       this.sendPush('Error: Could not find attachments.');
       return;
@@ -38,7 +38,7 @@ export class MailAnnouncementParserService implements MailParser {
     this.sendPush(`You will get mail today!`, attachment);
   }
 
-  sendPush(message: string, content?: PushAttachment) {
+  private sendPush(message: string, content?: PushAttachment) {
     if (!this.MAIL_ANNOUNCEMENT_PUSH_ROOM) {
       throw new Error('Missing MAIL_ANNOUNCEMENT_PUSH_ROOM env var!');
     }

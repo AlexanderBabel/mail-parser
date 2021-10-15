@@ -10,7 +10,7 @@ export class ParserService {
     private mailAnnouncementParserService: MailAnnouncementParserService,
   ) {}
 
-  getParsers(): MailParser[] {
+  public getParsers(): MailParser[] {
     return [this.dhlParserService, this.mailAnnouncementParserService];
   }
 }
