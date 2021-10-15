@@ -1,3 +1,11 @@
+## [2.2.1](https://github.com/AlexanderBabel/mail-parser/compare/v2.2.0...v2.2.1) (2021-10-15)
+
+
+### Bug Fixes
+
+* **Dockerfile:** run prisma generate ([4b16d31](https://github.com/AlexanderBabel/mail-parser/commit/4b16d317bac3e54a18687b3696a6cc5da4bd1d9b))
+* **Dockerfile:** run prisma generate ([41febdc](https://github.com/AlexanderBabel/mail-parser/commit/41febdcc60d59724c81712282bbf28ae2617fe97))
+
 # [2.2.0](https://github.com/AlexanderBabel/mail-parser/compare/v2.1.19...v2.2.0) (2021-10-15)
 
 
