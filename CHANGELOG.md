@@ -1,3 +1,10 @@
+## [2.2.4](https://github.com/AlexanderBabel/mail-parser/compare/v2.2.3...v2.2.4) (2021-10-15)
+
+
+### Bug Fixes
+
+* **prisma:** update schema ([284bea6](https://github.com/AlexanderBabel/mail-parser/commit/284bea6dc82f5b6e14965acdfbaec099495f5e9f))
+
 ## [2.2.3](https://github.com/AlexanderBabel/mail-parser/compare/v2.2.2...v2.2.3) (2021-10-15)
 
 
