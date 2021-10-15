@@ -697,7 +697,7 @@
     multer "1.4.3"
     tslib "2.3.1"
 
-"@nestjs/schedule@^1.0.1":
+"@nestjs/schedule@1.0.1":
   version "1.0.1"
   resolved "https://registry.yarnpkg.com/@nestjs/schedule/-/schedule-1.0.1.tgz#4ab3f753c2a0f606cf969b0ec7aa4e655ea444d3"
   integrity sha512-EU2tB4rxuEgum8JlorAFvXkU982EYZm/IBa7n6kgkyps5BbxQSFf7iR1CLkP9zODO9ApZTWk5z3q9L3O7vrkoQ==
@@ -1013,7 +1013,7 @@
   dependencies:
     "@octokit/openapi-types" "^9.5.0"
 
-"@prisma/client@^3.2.1":
+"@prisma/client@3.2.1":
   version "3.2.1"
   resolved "https://registry.yarnpkg.com/@prisma/client/-/client-3.2.1.tgz#b0c60b4c42ec5b701a271380780c70de55bc3311"
   integrity sha512-nakt9YoDFD4cgTkRTSVbzG40AKmmbVEtXE3csVqBdDXsm0/L4PQdtbtzILNzq28xv8HH8oHgFKWnsItM23mSDw==
