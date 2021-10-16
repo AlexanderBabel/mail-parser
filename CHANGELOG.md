@@ -1,3 +1,10 @@
+## [2.2.5](https://github.com/AlexanderBabel/mail-parser/compare/v2.2.4...v2.2.5) (2021-10-16)
+
+
+### Bug Fixes
+
+* **CardPaymentsModule:** enable cron ([9a090e3](https://github.com/AlexanderBabel/mail-parser/commit/9a090e3838d7bb075d820b64b50f57de32589b1b))
+
 ## [2.2.4](https://github.com/AlexanderBabel/mail-parser/compare/v2.2.3...v2.2.4) (2021-10-15)
 
 
