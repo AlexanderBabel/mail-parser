@@ -1,3 +1,10 @@
+## [2.2.8](https://github.com/AlexanderBabel/mail-parser/compare/v2.2.7...v2.2.8) (2021-10-23)
+
+
+### Bug Fixes
+
+* **CardPaymentsController:** update cron pattern ([1976cde](https://github.com/AlexanderBabel/mail-parser/commit/1976cde6fb2c19e5d2992f9d878f7ce3aa49f11c))
+
 ## [2.2.7](https://github.com/AlexanderBabel/mail-parser/compare/v2.2.6...v2.2.7) (2021-10-20)
 
 
