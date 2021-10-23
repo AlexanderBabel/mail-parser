@@ -26,7 +26,7 @@ export class CardPaymentsController {
     private prismaService: PrismaService,
   ) {}
 
-  @Cron('30 * * * *')
+  @Cron('5 0,2,12,18,22 * * *')
   async fetchNewPayments() {
     const lastPayment = await this.prismaService.payments.findFirst({
       orderBy: { createdAt: 'desc' },
