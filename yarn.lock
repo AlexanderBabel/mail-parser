@@ -1344,12 +1344,13 @@
   resolved "https://registry.yarnpkg.com/@types/json5/-/json5-0.0.29.tgz#ee28707ae94e11d2b827bcbe5270bcea7f3e71ee"
   integrity sha1-7ihweulOEdK4J7y+UnC86n8+ce4=
 
-"@types/mailparser@3.0.3":
-  version "3.0.3"
-  resolved "https://registry.yarnpkg.com/@types/mailparser/-/mailparser-3.0.3.tgz#934c1637728eefd9ad2eb797878cb3d938909973"
-  integrity sha512-R2TXAQFZD33kVlaaZpfBKQLR6uEuiTh8FoPyaQnVkstb/TnWSKQ93F78Kb3/dAESGhPEEQ7jCPWfN/SLUZD6Jg==
+"@types/mailparser@3.4.0":
+  version "3.4.0"
+  resolved "https://registry.yarnpkg.com/@types/mailparser/-/mailparser-3.4.0.tgz#89dae9d5ca68d9f450b9ed51518e89d57092fef9"
+  integrity sha512-MotFinA1sT2nPFtQw1WpaF3X6I1OdbEloaixMmk924BOYqwHmlZkoi7XcVUXHI+7i0to8JguHqYj5k/E6c9Chw==
   dependencies:
     "@types/node" "*"
+    iconv-lite "^0.6.3"
 
 "@types/mime@^1":
   version "1.3.2"
@@ -4260,7 +4261,7 @@ iconv-lite@0.6.2:
   dependencies:
     safer-buffer ">= 2.1.2 < 3.0.0"
 
-iconv-lite@0.6.3, iconv-lite@^0.6.2:
+iconv-lite@0.6.3, iconv-lite@^0.6.2, iconv-lite@^0.6.3:
   version "0.6.3"
   resolved "https://registry.yarnpkg.com/iconv-lite/-/iconv-lite-0.6.3.tgz#a52f80bf38da1952eb5c681790719871a1a72501"
   integrity sha512-4fCk79wshMdzMp2rH06qWrJE4iolqLhCUH+OiuIgU++RB0+94NlDL81atO7GX55uUKueo0txHNtvEyI6D7WdMw==
