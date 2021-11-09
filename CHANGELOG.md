@@ -1,3 +1,10 @@
+## [2.2.16](https://github.com/AlexanderBabel/mail-parser/compare/v2.2.15...v2.2.16) (2021-11-09)
+
+
+### Bug Fixes
+
+* **deps:** update prisma monorepo to v3.4.2 ([316b5e8](https://github.com/AlexanderBabel/mail-parser/commit/316b5e8f499c9afb41216eb802911e1732ba2b42))
+
 ## [2.2.15](https://github.com/AlexanderBabel/mail-parser/compare/v2.2.14...v2.2.15) (2021-11-08)
 
 
