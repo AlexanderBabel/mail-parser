@@ -1,3 +1,10 @@
+## [2.2.17](https://github.com/AlexanderBabel/mail-parser/compare/v2.2.16...v2.2.17) (2021-11-16)
+
+
+### Bug Fixes
+
+* **deps:** update dependency @nestjs/schedule to v1.0.2 ([1c3d3c7](https://github.com/AlexanderBabel/mail-parser/commit/1c3d3c71ec65c21b4011751216e9712a6171c778))
+
 ## [2.2.16](https://github.com/AlexanderBabel/mail-parser/compare/v2.2.15...v2.2.16) (2021-11-09)
 
 
