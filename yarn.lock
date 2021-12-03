@@ -752,10 +752,10 @@
     jsonc-parser "3.0.0"
     pluralize "8.0.0"
 
-"@nestjs/terminus@8.0.1":
-  version "8.0.1"
-  resolved "https://registry.yarnpkg.com/@nestjs/terminus/-/terminus-8.0.1.tgz#96403795cbb6f14621c7504ee534fba336066643"
-  integrity sha512-UUSKK3/kO2gMUdXGJaOsj89pYA6OJMoKQPDx+zoEKQhA3+TPp0Js4ndWrtms5g6ydf3BfQqGQgEBEBjiq+0LWQ==
+"@nestjs/terminus@8.0.3":
+  version "8.0.3"
+  resolved "https://registry.yarnpkg.com/@nestjs/terminus/-/terminus-8.0.3.tgz#efa60ea7be0ae2395a46fdc2e4cf41bf3807fac8"
+  integrity sha512-w0AIGWduRYHpks8U5/HwTPQY/k+JchlayXJlHkMhjwSNNLGlFOoz5MKVC8DErtgz3U7TAyTYfOCXOaVN2yJtCg==
   dependencies:
     check-disk-space "3.0.1"
 
