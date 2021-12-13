@@ -1,3 +1,10 @@
+## [2.2.29](https://github.com/AlexanderBabel/mail-parser/compare/v2.2.28...v2.2.29) (2021-12-13)
+
+
+### Bug Fixes
+
+* **ParserInterface:** allow array and string for sender ([16a8686](https://github.com/AlexanderBabel/mail-parser/commit/16a868697f7f4dbc8a40004c2959e5e4008ce1c8))
+
 ## [2.2.28](https://github.com/AlexanderBabel/mail-parser/compare/v2.2.27...v2.2.28) (2021-12-13)
 
 
