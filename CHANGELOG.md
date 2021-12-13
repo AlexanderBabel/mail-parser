@@ -1,3 +1,11 @@
+## [2.2.28](https://github.com/AlexanderBabel/mail-parser/compare/v2.2.27...v2.2.28) (2021-12-13)
+
+
+### Bug Fixes
+
+* **CardPaymentsApiServer:** add error catch ([40c17a9](https://github.com/AlexanderBabel/mail-parser/commit/40c17a9fcd006bf6989eb43f597036746d3f3aa3))
+* improve push service reliability ([a4b08a6](https://github.com/AlexanderBabel/mail-parser/commit/a4b08a6816d9ea7592a512beb9215326ef1d3686))
+
 ## [2.2.27](https://github.com/AlexanderBabel/mail-parser/compare/v2.2.26...v2.2.27) (2021-12-10)
 
 
