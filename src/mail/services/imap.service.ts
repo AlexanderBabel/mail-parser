@@ -63,9 +63,14 @@ export class IMAPService {
   }
 
   private async handleMail(mail: ParsedMail) {
-    const parser = this.parserService
-      .getParsers()
-      .find((p) => mail.from?.value.some((s) => s.address === p.getSender()));
+    const parser = this.parserService.getParsers().find((p) =>
+      mail.from?.value.some((s) => {
+        const sender = p.getSender();
+        return Array.isArray(sender) && s.address
+          ? sender.includes(s.address)
+          : s.address === sender;
+      }),
+    );
 
     if (!parser) {
       this.logger.warn(

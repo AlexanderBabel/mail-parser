@@ -19,8 +19,8 @@ export class DHLParserService implements MailParser {
     }
   }
 
-  public getSender(): string {
-    return 'noreply.packstation@dhl.de';
+  public getSender(): string[] {
+    return ['noreply.packstation@dhl.de', 'noreply@dhl.de'];
   }
 
   public async parseMail(mail: ParsedMail): Promise<void> {
@@ -30,7 +30,9 @@ export class DHLParserService implements MailParser {
     }
 
     const $ = cheerio.load(mail.html);
-    const mTan = $('.mobileVersion .headline span>b').text() || $('td.articleHeadline').first().text(); 
+    const mTan =
+      $('.mobileVersion .headline span>b').text() ||
+      $('td.articleHeadline').first().text();
     if (!mTan) {
       this.sendPush('DHL: Could not find mTAN');
       return;
