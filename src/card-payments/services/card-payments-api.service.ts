@@ -1,6 +1,6 @@
 import { Injectable, Logger } from '@nestjs/common';
 import { ConfigService } from '@nestjs/config';
-import axios, { AxiosInstance } from 'axios';
+import axios, { AxiosError, AxiosInstance } from 'axios';
 
 export type PushAttachment = {
   content: string;
@@ -99,9 +99,13 @@ export class CardPaymentsApiService {
     order = 'desc',
     next,
   }: Parameters = {}): Promise<Payment[]> {
-    const response = await this.httpClient?.request<Response>({
-      data: { count, order, last_id: next ? `mco_card/${next}` : undefined },
-    });
+    const response = await this.httpClient
+      ?.request<Response>({
+        data: { count, order, last_id: next ? `mco_card/${next}` : undefined },
+      })
+      .catch((error: AxiosError) =>
+        this.logger.error(`${error.message} - Next: mco_card/${next} - Data: ${error.response?.data}`),
+      );
     if (!response?.data.ok) {
       return [];
     }

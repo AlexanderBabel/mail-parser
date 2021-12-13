@@ -24,7 +24,9 @@ export class CardPaymentsController {
     private configService: ConfigService,
     private cardPaymentsApiService: CardPaymentsApiService,
     private prismaService: PrismaService,
-  ) {}
+  ) {
+    this.fetchNewPayments();
+  }
 
   @Cron('5 0,2,12,18,22 * * *')
   async fetchNewPayments() {
