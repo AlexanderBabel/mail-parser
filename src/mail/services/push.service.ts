@@ -1,6 +1,8 @@
+import { HttpService } from '@nestjs/axios';
 import { Injectable, Logger } from '@nestjs/common';
 import { ConfigService } from '@nestjs/config';
-import axios, { AxiosInstance } from 'axios';
+import { AxiosResponse } from 'axios';
+import { Observable } from 'rxjs';
 
 export type PushAttachment = {
   content: string;
@@ -10,31 +12,27 @@ export type PushAttachment = {
 
 @Injectable()
 export class PushService {
-  private readonly httpClient: AxiosInstance;
-
   private readonly logger = new Logger(PushService.name);
 
   private readonly PUSH_ENDPOINT =
     this.configService.get<string>('PUSH_ENDPOINT');
 
-  constructor(private configService: ConfigService) {
-    if (!this.PUSH_ENDPOINT) {
-      throw new Error('Missing env var! PUSH_ENDPOINT is not defined.');
-    }
-
-    this.httpClient = axios.create({
-      method: 'post',
-      timeout: 10_000,
-      baseURL: this.PUSH_ENDPOINT,
-    });
-  }
+  constructor(
+    private configService: ConfigService,
+    private httpService: HttpService,
+  ) {}
 
   public async sendPush(
     roomId: string,
     message: string,
     attachment?: PushAttachment,
-  ) {
-    return this.httpClient?.request({
+  ): Promise<Observable<AxiosResponse<{ success: boolean }>>> {
+    if (!this.PUSH_ENDPOINT) {
+      throw new Error('Missing env var! PUSH_ENDPOINT is not defined.');
+    }
+
+    return this.httpService.request<{ success: boolean }>({
+      baseURL: this.PUSH_ENDPOINT,
       data: {
         roomId,
         message,

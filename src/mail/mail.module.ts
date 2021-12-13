@@ -1,3 +1,4 @@
+import { HttpModule } from '@nestjs/axios';
 import { Module } from '@nestjs/common';
 import { ConfigModule } from '@nestjs/config';
 import { config } from '../config';
@@ -8,7 +9,14 @@ import { MailAnnouncementParserService } from './services/parsers/mail.announcem
 import { PushService } from './services/push.service';
 
 @Module({
-  imports: [ConfigModule.forRoot({ load: [config] })],
+  imports: [
+    ConfigModule.forRoot({ load: [config] }),
+    HttpModule.register({
+      method: 'post',
+      maxRedirects: 5,
+      timeout: 10_000,
+    }),
+  ],
   controllers: [],
   providers: [
     IMAPService,
