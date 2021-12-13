@@ -83,9 +83,7 @@ export class IMAPService {
       .parseMail(mail)
       .catch((error) =>
         this.logger.error(
-          `[${parser}] [${parser.getSender()}] Error occurred: ${error} - ${
-            error.message
-          } Data: ${JSON.stringify(error.data, null, 2)}`,
+          `[${parser.getSender()}] Error occurred: ${error} - ${error.message}`,
         ),
       );
   }
