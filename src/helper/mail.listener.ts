@@ -59,7 +59,7 @@ export class MailListener extends EventEmitter {
     this.imap.end();
   }
 
-  imapReady() {
+  private imapReady() {
     this.imap.openBox(this.mailbox, false, (err) => {
       if (err) {
         this.emit('error', err);
@@ -75,19 +75,19 @@ export class MailListener extends EventEmitter {
     });
   }
 
-  imapClose() {
+  private imapClose() {
     this.emit('server:disconnected');
   }
 
-  imapError(err: Error) {
+  private imapError(err: Error) {
     this.emit('error', err);
   }
 
-  imapMail() {
+  private imapMail() {
     this.parseUnread();
   }
 
-  parseUnread() {
+  private parseUnread() {
     this.imap.search(this.searchFilter, (err, results) => {
       if (err) {
         this.emit('error', err);
@@ -109,7 +109,7 @@ export class MailListener extends EventEmitter {
     });
   }
 
-  handleMessage(message: Imap.ImapMessage, seqno: number) {
+  private handleMessage(message: Imap.ImapMessage, seqno: number) {
     let attributes: Imap.ImapMessageAttributes;
 
     message.on('body', (stream) => {

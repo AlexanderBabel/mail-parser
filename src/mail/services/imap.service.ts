@@ -50,11 +50,13 @@ export class IMAPService {
     this.mailListener.start();
 
     this.mailListener.on('server:disconnected', () => {
+      this.logger.log('Reconnect to IMAP server after disconnect.');
       this.mailListener.start();
     });
 
     this.mailListener.on('error', (err) => {
       this.logger.error(err);
+      this.mailListener.stop();
     });
 
     this.mailListener.on('mail', (mail: ParsedMail) => {
