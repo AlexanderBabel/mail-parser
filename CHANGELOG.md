@@ -1,3 +1,10 @@
+## [2.2.31](https://github.com/AlexanderBabel/mail-parser/compare/v2.2.30...v2.2.31) (2021-12-16)
+
+
+### Bug Fixes
+
+* **IMAPService:** reconnect after an error occurred ([35294e9](https://github.com/AlexanderBabel/mail-parser/commit/35294e9870c640d5ab0288fc5d6fbeb3c58310cd))
+
 ## [2.2.30](https://github.com/AlexanderBabel/mail-parser/compare/v2.2.29...v2.2.30) (2021-12-13)
 
 
