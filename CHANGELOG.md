@@ -1,3 +1,10 @@
+## [2.2.30](https://github.com/AlexanderBabel/mail-parser/compare/v2.2.29...v2.2.30) (2021-12-13)
+
+
+### Bug Fixes
+
+* **PushService:** improve handling ([04176ef](https://github.com/AlexanderBabel/mail-parser/commit/04176ef92723d4f4bf6c03e7291f928fd65aac07))
+
 ## [2.2.29](https://github.com/AlexanderBabel/mail-parser/compare/v2.2.28...v2.2.29) (2021-12-13)
 
 
