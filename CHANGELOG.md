@@ -1,3 +1,10 @@
+## [2.2.43](https://github.com/AlexanderBabel/mail-parser/compare/v2.2.42...v2.2.43) (2022-01-16)
+
+
+### Bug Fixes
+
+* **deps:** update dependency dotenv to v12.0.4 ([3e28b8b](https://github.com/AlexanderBabel/mail-parser/commit/3e28b8b9e4fbb60d3ddd15d2f02156af082c2d2e))
+
 ## [2.2.42](https://github.com/AlexanderBabel/mail-parser/compare/v2.2.41...v2.2.42) (2022-01-15)
 
 
