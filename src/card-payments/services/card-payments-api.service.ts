@@ -86,7 +86,6 @@ export class CardPaymentsApiService {
     this.httpClient = axios.create({
       method: 'get',
       timeout: 10_000,
-      baseURL: this.CARD_PAYMENTS_ENDPOINT,
       headers: {
         Authorization: `Bearer ${this.CARD_PAYMENTS_TOKEN}`,
         'User-Agent': this.CARD_PAYMENTS_USER_AGENT,
@@ -101,6 +100,7 @@ export class CardPaymentsApiService {
   }: Parameters = {}): Promise<Payment[]> {
     const response = await this.httpClient
       ?.request<Response>({
+        url: this.CARD_PAYMENTS_ENDPOINT,
         data: { count, order, last_id: next ? `mco_card/${next}` : undefined },
       })
       .catch((error: AxiosError) =>
