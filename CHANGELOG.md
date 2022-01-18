@@ -1,3 +1,10 @@
+## [2.2.46](https://github.com/AlexanderBabel/mail-parser/compare/v2.2.45...v2.2.46) (2022-01-18)
+
+
+### Bug Fixes
+
+* **CardPaymentApi:** update axios ([6d1547c](https://github.com/AlexanderBabel/mail-parser/commit/6d1547c6094f734a9a761bd503e3d13b178d7bd7))
+
 ## [2.2.45](https://github.com/AlexanderBabel/mail-parser/compare/v2.2.44...v2.2.45) (2022-01-18)
 
 
