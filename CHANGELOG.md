@@ -1,3 +1,11 @@
+## [2.2.45](https://github.com/AlexanderBabel/mail-parser/compare/v2.2.44...v2.2.45) (2022-01-18)
+
+
+### Bug Fixes
+
+* **deps:** update dependency axios to v0.25.0 ([00f996c](https://github.com/AlexanderBabel/mail-parser/commit/00f996c02b0a0ff6a21605fc46f32d8b6607be42))
+* **deps:** update dependency dotenv to v14 ([6303b24](https://github.com/AlexanderBabel/mail-parser/commit/6303b248acc82e826152e849927f28b62187e2a8))
+
 ## [2.2.44](https://github.com/AlexanderBabel/mail-parser/compare/v2.2.43...v2.2.44) (2022-01-16)
 
 
