@@ -1,3 +1,10 @@
+## [2.2.57](https://github.com/AlexanderBabel/mail-parser/compare/v2.2.56...v2.2.57) (2022-02-13)
+
+
+### Bug Fixes
+
+* **deps:** update dependency axios to v0.26.0 ([2b85960](https://github.com/AlexanderBabel/mail-parser/commit/2b85960d15705ef12f1f93a0bfea513f73cd2e1f))
+
 ## [2.2.56](https://github.com/AlexanderBabel/mail-parser/compare/v2.2.55...v2.2.56) (2022-02-11)
 
 
