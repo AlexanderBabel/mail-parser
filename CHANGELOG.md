@@ -1,3 +1,10 @@
+## [2.2.66](https://github.com/AlexanderBabel/mail-parser/compare/v2.2.65...v2.2.66) (2022-03-08)
+
+
+### Bug Fixes
+
+* **deps:** update dependency rxjs to v7.5.5 ([7386aa0](https://github.com/AlexanderBabel/mail-parser/commit/7386aa0fde94d5aa83a580499add3b94827abd98))
+
 ## [2.2.65](https://github.com/AlexanderBabel/mail-parser/compare/v2.2.64...v2.2.65) (2022-03-08)
 
 
