@@ -64,7 +64,7 @@
     "eslint-plugin-jest": "26.1.1",
     "eslint-plugin-prettier": "4.0.0",
     "eslint-plugin-promise": "6.0.0",
-    "eslint-plugin-unicorn": "40.1.0",
+    "eslint-plugin-unicorn": "41.0.1",
     "jest": "27.5.1",
     "prettier": "2.6.0",
     "prisma": "3.11.0",
