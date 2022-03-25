@@ -1,3 +1,10 @@
+## [2.2.74](https://github.com/AlexanderBabel/mail-parser/compare/v2.2.73...v2.2.74) (2022-03-25)
+
+
+### Bug Fixes
+
+* **deps:** update nest monorepo to v8.4.3 ([8d6a261](https://github.com/AlexanderBabel/mail-parser/commit/8d6a2617e779c8473b9c64f980766290a8c02ea6))
+
 ## [2.2.73](https://github.com/AlexanderBabel/mail-parser/compare/v2.2.72...v2.2.73) (2022-03-25)
 
 
