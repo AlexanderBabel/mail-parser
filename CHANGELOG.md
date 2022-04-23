@@ -1,3 +1,10 @@
+## [2.2.78](https://github.com/AlexanderBabel/mail-parser/compare/v2.2.77...v2.2.78) (2022-04-23)
+
+
+### Bug Fixes
+
+* use prebuild prisma binaries ([9aa3afe](https://github.com/AlexanderBabel/mail-parser/commit/9aa3afec4aee63bdc65467ac023b677d9d73e394))
+
 ## [2.2.77](https://github.com/AlexanderBabel/mail-parser/compare/v2.2.76...v2.2.77) (2022-04-05)
 
 
