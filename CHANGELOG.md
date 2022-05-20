@@ -1,3 +1,10 @@
+## [2.2.90](https://github.com/AlexanderBabel/mail-parser/compare/v2.2.89...v2.2.90) (2022-05-20)
+
+
+### Bug Fixes
+
+* **deps:** update dependency cheerio to v1.0.0-rc.11 ([bead82b](https://github.com/AlexanderBabel/mail-parser/commit/bead82bc795a16747614ea135c657b9830dc77c4))
+
 ## [2.2.89](https://github.com/AlexanderBabel/mail-parser/compare/v2.2.88...v2.2.89) (2022-05-18)
 
 
