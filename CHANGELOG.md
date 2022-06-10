@@ -1,3 +1,10 @@
+## [2.2.96](https://github.com/AlexanderBabel/mail-parser/compare/v2.2.95...v2.2.96) (2022-06-10)
+
+
+### Bug Fixes
+
+* disable card payments module ([d89bd62](https://github.com/AlexanderBabel/mail-parser/commit/d89bd62ebdca3545360700453d47d33ebf7637a7))
+
 ## [2.2.95](https://github.com/AlexanderBabel/mail-parser/compare/v2.2.94...v2.2.95) (2022-06-09)
 
 
