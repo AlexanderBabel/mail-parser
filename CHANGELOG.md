@@ -1,3 +1,10 @@
+## [2.2.101](https://github.com/AlexanderBabel/mail-parser/compare/v2.2.100...v2.2.101) (2022-06-28)
+
+
+### Bug Fixes
+
+* **deps:** update dependency @nestjs/terminus to v8.1.0 ([68cd64d](https://github.com/AlexanderBabel/mail-parser/commit/68cd64de05d5c185c167ca1536438580130682b2))
+
 ## [2.2.100](https://github.com/AlexanderBabel/mail-parser/compare/v2.2.99...v2.2.100) (2022-06-26)
 
 
