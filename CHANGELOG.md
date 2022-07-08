@@ -1,3 +1,10 @@
+## [2.2.103](https://github.com/AlexanderBabel/mail-parser/compare/v2.2.102...v2.2.103) (2022-07-08)
+
+
+### Bug Fixes
+
+* **deps:** update dependency @nestjs/axios to v0.1.0 ([0410bf1](https://github.com/AlexanderBabel/mail-parser/commit/0410bf1a3982d0477fb5003052ab7141cd0299d2))
+
 ## [2.2.102](https://github.com/AlexanderBabel/mail-parser/compare/v2.2.101...v2.2.102) (2022-07-05)
 
 
