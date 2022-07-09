@@ -1,3 +1,10 @@
+## [2.2.106](https://github.com/AlexanderBabel/mail-parser/compare/v2.2.105...v2.2.106) (2022-07-09)
+
+
+### Bug Fixes
+
+* **PushService:** switch to new service ([a298b8d](https://github.com/AlexanderBabel/mail-parser/commit/a298b8d6028ec1aad399703bd4d0291addcef813))
+
 ## [2.2.105](https://github.com/AlexanderBabel/mail-parser/compare/v2.2.104...v2.2.105) (2022-07-08)
 
 
