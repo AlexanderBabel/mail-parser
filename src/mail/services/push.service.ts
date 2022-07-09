@@ -6,6 +6,7 @@ export type PushAttachment = {
   content: string;
   contentType: string;
   name?: string;
+  thumbnailSize?: number;
 };
 
 @Injectable()
@@ -35,16 +36,33 @@ export class PushService {
   public async sendPush(
     roomId: string,
     message: string,
-    attachment?: PushAttachment,
   ): Promise<AxiosResponse<{ success: boolean }> | void> {
     return this.httpClient
       ?.request<{ success: boolean }>({
         baseURL: this.PUSH_ENDPOINT,
+        url: roomId,
         data: {
-          roomId,
           message,
-          attachment,
         },
+      })
+      .catch((error: AxiosError) =>
+        this.logger.error(
+          `Error occurred: ${error} - ${error.message} Data: ${JSON.stringify(
+            error.response?.data,
+          )}`,
+        ),
+      );
+  }
+
+  public async sendAttachment(
+    roomId: string,
+    attachment: PushAttachment,
+  ): Promise<AxiosResponse<{ success: boolean }> | void> {
+    return this.httpClient
+      ?.request<{ success: boolean }>({
+        baseURL: this.PUSH_ENDPOINT,
+        url: roomId,
+        data: attachment,
       })
       .catch((error: AxiosError) =>
         this.logger.error(
