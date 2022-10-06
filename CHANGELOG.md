@@ -1,3 +1,10 @@
+## [2.2.111](https://github.com/AlexanderBabel/mail-parser/compare/v2.2.110...v2.2.111) (2022-10-06)
+
+
+### Bug Fixes
+
+* **deps:** update dependency body-parser to v1.20.1 ([564e04d](https://github.com/AlexanderBabel/mail-parser/commit/564e04d1ec2bd152ec30b7bfe332eae6f122bf98))
+
 ## [2.2.110](https://github.com/AlexanderBabel/mail-parser/compare/v2.2.109...v2.2.110) (2022-09-29)
 
 
