@@ -4,7 +4,7 @@ FROM positivly/prisma-binaries:latest as prisma
 # Builder stage.
 # This state compile our TypeScript to get the JavaScript code
 #
-FROM node:16 AS builder
+FROM node:19 AS builder
 
 WORKDIR /usr/src/app
 
@@ -25,7 +25,7 @@ RUN yarn install --production --frozen-lockfile --silent && /usr/local/bin/node-
 # This state compile get back the JavaScript code from builder stage
 # It will also install the production package only
 #
-FROM node:16-alpine
+FROM node:19-alpine
 
 WORKDIR /app
 
