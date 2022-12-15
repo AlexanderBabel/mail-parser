@@ -1,3 +1,10 @@
+## [2.2.115](https://github.com/AlexanderBabel/mail-parser/compare/v2.2.114...v2.2.115) (2022-12-15)
+
+
+### Bug Fixes
+
+* **deps:** update dependency mailparser to v3.6.2 ([e8fa188](https://github.com/AlexanderBabel/mail-parser/commit/e8fa188086886c3d5b6a05213b1141d3cf343018))
+
 ## [2.2.114](https://github.com/AlexanderBabel/mail-parser/compare/v2.2.113...v2.2.114) (2022-12-14)
 
 
