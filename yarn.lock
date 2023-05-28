@@ -1661,10 +1661,10 @@
   dependencies:
     "@types/node" "*"
 
-"@types/imap@0.8.36":
-  version "0.8.36"
-  resolved "https://registry.yarnpkg.com/@types/imap/-/imap-0.8.36.tgz#b58d713d57143d8099592e1a3d7ea7dc9ea776b8"
-  integrity sha512-GZKAjmHhgfaW9mY1QKYAn+TIuQh8KlZA7vMO8rTiOnLe2wUExyED4AAXazS5n4bXWT3UfdF5Egsc7um2rg1gZw==
+"@types/imap@0.8.37":
+  version "0.8.37"
+  resolved "https://registry.yarnpkg.com/@types/imap/-/imap-0.8.37.tgz#b87bd87125450e677c589f053df3b6bccd1ba6b0"
+  integrity sha512-cEjr3G2TmnOeYGG47BEshEmXsZpOaK33TlbxrtB2fzFXvaHvrKfK0kqhMxteKWWtbeGPPxKwyvT+ePz4Pv/45A==
   dependencies:
     "@types/node" "*"
 
