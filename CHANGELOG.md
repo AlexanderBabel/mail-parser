@@ -1,3 +1,10 @@
+## [2.2.130](https://github.com/AlexanderBabel/mail-parser/compare/v2.2.129...v2.2.130) (2023-06-14)
+
+
+### Bug Fixes
+
+* **deps:** update dependency @nestjs/config to v2.3.4 ([ac6344f](https://github.com/AlexanderBabel/mail-parser/commit/ac6344f4301885f0790396296fe60867b9914a6f))
+
 ## [2.2.129](https://github.com/AlexanderBabel/mail-parser/compare/v2.2.128...v2.2.129) (2023-06-09)
 
 
