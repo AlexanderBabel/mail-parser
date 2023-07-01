@@ -1,3 +1,10 @@
+## [2.2.133](https://github.com/AlexanderBabel/mail-parser/compare/v2.2.132...v2.2.133) (2023-07-01)
+
+
+### Bug Fixes
+
+* **deps:** update dependency mailparser to v3.6.5 ([15a25e8](https://github.com/AlexanderBabel/mail-parser/commit/15a25e824d103af44067979be634278a5b2a8c48))
+
 ## [2.2.132](https://github.com/AlexanderBabel/mail-parser/compare/v2.2.131...v2.2.132) (2023-06-28)
 
 
