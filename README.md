@@ -15,7 +15,7 @@ Afterwards, you can setup an app specific password in your mail account. This pa
 - A mail account at web.de or gmx.de
 - Enable the `Deutsche Post Briefankündigung` feature in your mail account settings
 - Setup an app specific password in your mail account settings
-- Maubot with the (`hasswebhookbot`)[https://github.com/v411e/hasswebhookbot] plugin installed
+- Maubot with the [`hasswebhookbot`](https://github.com/v411e/hasswebhookbot) plugin installed
 - Exposed Maubot endpoint
 - A Matrix room with the Maubot bot to sent the push notification to
 
