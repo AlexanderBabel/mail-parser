@@ -47,7 +47,7 @@
     "@semantic-release/commit-analyzer": "10.0.4",
     "@semantic-release/git": "10.0.1",
     "@types/cron": "2.4.0",
-    "@types/express": "4.17.17",
+    "@types/express": "4.17.21",
     "@types/imap": "0.8.37",
     "@types/jest": "29.5.4",
     "@types/mailparser": "3.4.0",
