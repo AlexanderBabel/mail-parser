@@ -1591,10 +1591,10 @@
   resolved "https://registry.yarnpkg.com/@types/http-errors/-/http-errors-2.0.1.tgz#20172f9578b225f6c7da63446f56d4ce108d5a65"
   integrity sha512-/K3ds8TRAfBvi5vfjuz8y6+GiAYBZ0x4tXv1Av6CWBWn0IlADc+ZX9pMq7oU0fNQPnBwIZl3rmeLp6SBApbxSQ==
 
-"@types/imap@0.8.37":
-  version "0.8.37"
-  resolved "https://registry.yarnpkg.com/@types/imap/-/imap-0.8.37.tgz#b87bd87125450e677c589f053df3b6bccd1ba6b0"
-  integrity sha512-cEjr3G2TmnOeYGG47BEshEmXsZpOaK33TlbxrtB2fzFXvaHvrKfK0kqhMxteKWWtbeGPPxKwyvT+ePz4Pv/45A==
+"@types/imap@0.8.40":
+  version "0.8.40"
+  resolved "https://registry.yarnpkg.com/@types/imap/-/imap-0.8.40.tgz#fb302b04112acd1c8c9b997e7117a7d76b046465"
+  integrity sha512-kWFwOc88CGwWZlHqCnZiceS6EralsAHdjpQyk1+fIA875NQdIHvLpdD5NU3Pi1yZ8FKFdOF81UDNAo8/XS6HiQ==
   dependencies:
     "@types/node" "*"
 
