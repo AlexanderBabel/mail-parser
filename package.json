@@ -40,7 +40,7 @@
   },
   "devDependencies": {
     "@alexbabel/semantic-release-docker": "2.9.0",
-    "@nestjs/cli": "10.1.17",
+    "@nestjs/cli": "10.3.2",
     "@nestjs/schematics": "10.0.2",
     "@nestjs/testing": "10.2.5",
     "@semantic-release/changelog": "6.0.3",
