@@ -31,7 +31,7 @@
     "axios": "1.5.0",
     "body-parser": "1.20.2",
     "cheerio": "1.0.0-rc.12",
-    "dotenv": "16.3.1",
+    "dotenv": "16.4.5",
     "imap": "0.8.19",
     "mailparser": "3.6.5",
     "reflect-metadata": "0.1.13",
