@@ -1,3 +1,11 @@
+## [2.2.134](https://github.com/AlexanderBabel/mail-parser/compare/v2.2.133...v2.2.134) (2024-02-20)
+
+
+### Bug Fixes
+
+* cleanup project ([a425912](https://github.com/AlexanderBabel/mail-parser/commit/a425912bf4a72d96739796f03d2c8cfe59fb5a8e))
+* update dependencies ([a466ad7](https://github.com/AlexanderBabel/mail-parser/commit/a466ad77e249ecd66cfa6abc9b903fe7ff7c7f3a))
+
 ## [2.2.133](https://github.com/AlexanderBabel/mail-parser/compare/v2.2.132...v2.2.133) (2023-07-01)
 
 
