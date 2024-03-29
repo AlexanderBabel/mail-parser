@@ -34,7 +34,7 @@
     "dotenv": "16.4.5",
     "imap": "0.8.19",
     "mailparser": "3.6.7",
-    "reflect-metadata": "0.2.1",
+    "reflect-metadata": "0.2.2",
     "rimraf": "5.0.5",
     "rxjs": "7.8.1"
   },
