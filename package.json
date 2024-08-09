@@ -30,7 +30,7 @@
     "@nestjs/terminus": "10.2.3",
     "axios": "1.6.7",
     "body-parser": "1.20.2",
-    "cheerio": "1.0.0-rc.12",
+    "cheerio": "1.0.0",
     "dotenv": "16.4.5",
     "imap": "0.8.19",
     "mailparser": "3.6.7",
