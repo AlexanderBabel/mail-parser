@@ -28,7 +28,7 @@
     "@nestjs/platform-express": "10.3.3",
     "@nestjs/schedule": "4.0.1",
     "@nestjs/terminus": "10.2.3",
-    "axios": "1.6.7",
+    "axios": "1.7.4",
     "body-parser": "1.20.2",
     "cheerio": "1.0.0-rc.12",
     "dotenv": "16.4.5",
