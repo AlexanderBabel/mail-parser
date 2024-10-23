@@ -51,7 +51,7 @@
     "@types/imap": "0.8.40",
     "@types/jest": "29.5.12",
     "@types/mailparser": "3.4.4",
-    "@types/node": "20.11.19",
+    "@types/node": "20.17.0",
     "@types/supertest": "6.0.2",
     "@typescript-eslint/eslint-plugin": "6.7.0",
     "@typescript-eslint/parser": "6.7.0",
